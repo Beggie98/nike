@@ -2,19 +2,195 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'RB';
 }
-
-ul{
-    list-style: none;
-}
-
 a{
     text-decoration: none;
 }
-
+ul{
+    list-style: none;
+}
 .container{
+    margin: 0 auto;
     max-width: 1140px;
     width: 100%;
+}
+.header__nav{
+    background: #322E41;
+    padding: 13px 0;
+}
+.header__nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav-list{
+    display: flex;
+}
+.header__nav-link{
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+    padding: 23px 15px;
+    transition: color 300ms;
+}
+.header__nav-link:hover{
+    color: #FFE600;
+    border-bottom: 2px solid #FFFFFF;
+}
+.header__content{
+    height: 565px;
+    background: url(../images/header_content.jpg) no-repeat center /cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.header__content-title{
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.header__content-text{
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.news{
+    padding: 20px 0;
+    background: #e7e7e7;
+}
+.main__title{
     margin: 0 auto;
-    padding: 0 15px;
+    width: 196px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+    gap: 5px;
+    font-size: 24px;
+    line-height: 18px;
+    color: #2E2E3C;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.main__title-all{
+    font-family: 'RM';
+    font-size: 22px;
+    line-height: 18px;
+    background: #9A98EA;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 7px 10px;
+}
+.main__news-box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #D7D6DC;
+    border-radius: 3px;
+    gap: 10px;
+}
+.main__news-box-title{
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+}
+.main__news-box-text{
+    width: 320px;
+    font-family: 'RL';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #9B9B9B;
+}
+.main__news-box-link{
+    background: #DFC900;
+    border-radius: 3px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #050505;
+    text-align: center;
+    padding: 11px 0;
+    transition: color 300ms, background 300ms;
+}
+.main__news-box-link:hover{
+    background: #050505;
+    color: #FFE600;
+}
+.main__news-contrainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 29px;
+}
+.main__title-two{
+    width: 186px;
+}
+.sneaker{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sneaker__left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sneaker__left-box{
+    width: 540px;
+}
+.sneaker__left-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.sneaker__left-price{
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.sneaker__left-text{
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 27px;
+    color: #6A6A6A;
+    margin-bottom: 21px;
+}
+.sneaker__left-list{
+    display: flex;
+    gap: 30px;
+}
+.sneaker__left-link{
+    background: #DFC900;
+    border-radius: 3px;
+    padding: 11px 101px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    color: #050505;
+}
+.sneaker__right-list{
+    display: flex;
+    gap: 15px;
+}
+.sneaker__right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
